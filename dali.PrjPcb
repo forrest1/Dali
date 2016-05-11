@@ -45,29 +45,13 @@ AnnotateScope=All
 AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
+ClassGenCCAutoEnabled=0
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
 [Document2]
-DocumentPath=peripherals.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-
-[Document3]
 DocumentPath=dali.SCHLIB
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -83,7 +67,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document4]
+[Document3]
 DocumentPath=dali.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -99,7 +83,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document5]
+[Document4]
 DocumentPath=Ethernet.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -109,13 +93,13 @@ AnnotateScope=All
 AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
+ClassGenCCAutoEnabled=0
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document6]
+[Document5]
 DocumentPath=..\..\..\pcblib\work_guyg.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -131,7 +115,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document7]
+[Document6]
 DocumentPath=..\..\..\pcblib\work_guyg.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -147,7 +131,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document8]
+[Document7]
 DocumentPath=zigbee.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -157,13 +141,13 @@ AnnotateScope=All
 AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
+ClassGenCCAutoEnabled=0
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document9]
+[Document8]
 DocumentPath=..\..\..\pcblib\CC2530.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -179,7 +163,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[Document10]
+[Document9]
 DocumentPath=dali.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -189,11 +173,31 @@ AnnotateScope=All
 AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+
+[Document10]
+DocumentPath=Dali.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
 ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for dali\dali.NET
+DItemRevisionGUID=
 
 [SearchPath1]
 Path=C:\guyg\work\pcblib\*.*
@@ -221,7 +225,7 @@ AddNetPins=-1
 AddNetNetLabels=-1
 AddNetPorts=-1
 ShowComponentParameters=-1
-ExportBOM=0
+ExportBOM=-1
 TemplateFilename=
 TemplateStoreRelative=-1
 PCB_PrintColor=0
@@ -251,113 +255,113 @@ Name=Netlist Outputs
 Description=
 TargetPrinter=\\winsrv1.chdc.cypress.com\Cypress_1F_East
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
-OutputType1=CadnetixNetlist
-OutputName1=Cadnetix Netlist
+OutputType1=RacalNetlist
+OutputName1=Racal Netlist
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-OutputType2=CalayNetlist
-OutputName2=Calay Netlist
+OutputType2=RINFNetlist
+OutputName2=RINF Netlist
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-OutputType3=EDIF
-OutputName3=EDIF for PCB
+OutputType3=ProtelNetlist
+OutputName3=Protel
 OutputDocumentPath3=
 OutputVariantName3=
 OutputDefault3=0
-OutputType4=EESofNetlist
-OutputName4=EESof Netlist
+OutputType4=PCADnltNetlist
+OutputName4=PCADnlt Netlist
 OutputDocumentPath4=
 OutputVariantName4=
 OutputDefault4=0
-OutputType5=IntergraphNetlist
-OutputName5=Intergraph Netlist
+OutputType5=Protel2Netlist
+OutputName5=Protel2 Netlist
 OutputDocumentPath5=
 OutputVariantName5=
 OutputDefault5=0
-OutputType6=MentorBoardStationNetlist
-OutputName6=Mentor BoardStation Netlist
+OutputType6=SciCardsNetlist
+OutputName6=SciCards Netlist
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
-OutputType7=MultiWire
-OutputName7=MultiWire
+OutputType7=VHDL
+OutputName7=VHDL File
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
-OutputType8=OrCadPCB2Netlist
-OutputName8=Orcad/PCB2 Netlist
+OutputType8=WireListNetlist
+OutputName8=WireList Netlist
 OutputDocumentPath8=
 OutputVariantName8=
 OutputDefault8=0
-OutputType9=PADSNetlist
-OutputName9=PADS ASCII Netlist
+OutputType9=Verilog
+OutputName9=Verilog File
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
-OutputType10=Pcad
-OutputName10=Pcad for PCB
+OutputType10=TangoNetlist
+OutputName10=Tango Netlist
 OutputDocumentPath10=
 OutputVariantName10=
 OutputDefault10=0
-OutputType11=PCADNetlist
-OutputName11=PCAD Netlist
+OutputType11=TelesisNetlist
+OutputName11=Telesis Netlist
 OutputDocumentPath11=
 OutputVariantName11=
 OutputDefault11=0
-OutputType12=PCADnltNetlist
-OutputName12=PCADnlt Netlist
+OutputType12=EESofNetlist
+OutputName12=EESof Netlist
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=Protel2Netlist
-OutputName13=Protel2 Netlist
+OutputType13=IntergraphNetlist
+OutputName13=Intergraph Netlist
 OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
-OutputType14=ProtelNetlist
-OutputName14=Protel
+OutputType14=EDIF
+OutputName14=EDIF for PCB
 OutputDocumentPath14=
 OutputVariantName14=
 OutputDefault14=0
-OutputType15=RacalNetlist
-OutputName15=Racal Netlist
+OutputType15=CadnetixNetlist
+OutputName15=Cadnetix Netlist
 OutputDocumentPath15=
 OutputVariantName15=
 OutputDefault15=0
-OutputType16=RINFNetlist
-OutputName16=RINF Netlist
+OutputType16=CalayNetlist
+OutputName16=Calay Netlist
 OutputDocumentPath16=
 OutputVariantName16=
 OutputDefault16=0
-OutputType17=SciCardsNetlist
-OutputName17=SciCards Netlist
+OutputType17=MentorBoardStationNetlist
+OutputName17=Mentor BoardStation Netlist
 OutputDocumentPath17=
 OutputVariantName17=
 OutputDefault17=0
-OutputType18=TangoNetlist
-OutputName18=Tango Netlist
+OutputType18=Pcad
+OutputName18=Pcad for PCB
 OutputDocumentPath18=
 OutputVariantName18=
 OutputDefault18=0
-OutputType19=TelesisNetlist
-OutputName19=Telesis Netlist
+OutputType19=PCADNetlist
+OutputName19=PCAD Netlist
 OutputDocumentPath19=
 OutputVariantName19=
 OutputDefault19=0
-OutputType20=Verilog
-OutputName20=Verilog File
+OutputType20=PADSNetlist
+OutputName20=PADS ASCII Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=VHDL
-OutputName21=VHDL File
+OutputType21=MultiWire
+OutputName21=MultiWire
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
-OutputType22=WireListNetlist
-OutputName22=WireList Netlist
+OutputType22=OrCadPCB2Netlist
+OutputName22=Orcad/PCB2 Netlist
 OutputDocumentPath22=
 OutputVariantName22=
 OutputDefault22=0
@@ -975,7 +979,7 @@ Type7=1
 Type8=1
 Type9=1
 Type10=1
-Type11=2
+Type11=1
 Type12=2
 Type13=2
 Type14=1
@@ -1025,7 +1029,7 @@ Type57=1
 Type58=1
 Type59=0
 Type60=1
-Type61=2
+Type61=1
 Type62=2
 Type63=1
 Type64=0
@@ -1069,13 +1073,13 @@ Type101=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
-L2=NNWNNNNWWWNWNWNWN
-L3=NWEENEEEENEWNEEWN
-L4=NNENNNWEENNWNENWN
+L2=NNNNNNNWWWNWNWNWN
+L3=NNEENEEEENEWNEEWN
+L4=NNENNNWWENNWNENWN
 L5=NNNNNNNNNNNNNNNNN
 L6=NNENNNNEENNWNENWN
-L7=NNEWNNWEENNWNENWN
-L8=NWEENEENEEENNEENN
+L7=NNEWNNWWENNWNENWN
+L8=NWEWNEWNEEENNEENN
 L9=NWEENEEEENEWNEEWW
 L10=NWNNNNNENNEWNNEWN
 L11=NNENNNNEEENWNENWN
@@ -1103,7 +1107,7 @@ CompClassManualRoomEnabled=0
 NetClassAutoBusEnabled=1
 NetClassAutoCompEnabled=0
 NetClassAutoNamedHarnessEnabled=0
-NetClassManualEnabled=1
+NetClassManualEnabled=0
 
 [LibraryUpdateOptions]
 SelectedOnly=0
